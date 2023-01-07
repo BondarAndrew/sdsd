@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .wrapper {
@@ -15,11 +14,12 @@ body {
 
 .header {
   min-height: 1175px;
-  background-image: url("/images/bg.png");
+  background-image: url("/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 53px;
+  box-sizing: border-box;
 }
 
 .header-menu {
